@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: E5D8U5AOJm2lQfywK3V56wmyNxj+Gn5WbKNNLKk3YiBiNhwMU3fFHq3tXIbLsqxXYTyieD4SrBZikz//tzE2dfcj2u2ePcTUHk1+WN2rX2EFEYVE7dhWe/O2GDOEU+kp+atyblsGlh8pbmSJvdX910P4/34YxNSzvuNA1DaXE07pnhqbl+yen+hce81MzMQ7Ld3xTvQ2/8Q+HY5WRMS5wmkDEnotwZ+CF40ajoNUheidEeIXQdLX+nIfoXOPeiwvINLU/vFPsSnk3OlJUalj82cFblMOAEDXPn0ltMs7oEFnEvkYkknpqDLjqgZylpX3gJUrnU+gy+yEe1/XtDtYz4nSqwFCswHTAJR6XFH2u/tr7rNI1+inWX+PAgIxOcXmB1IgFyt81dd1T3Eb4VEot9N1vC6pdSH70mtctcnMw9G400x8czPqKkYQpwcsxLIJj/nIgNEUYwWk1YtE+iuL74hdpRiEBuzJmg92Q/PdGTOgFWk0zDVoYHB9r8SFSOh0CfJJFLHxvDfga2YOIo0GmtvoSyxkCLpAt954+ROlpxvhQtBkTOK3Ow8ZZQ+VXNCAnT5pTaBG9XPatJCPbjuJicg+H32gN7RZE+8BfOElcDsOLj2y7T+d7BS3Cex/wGAssxeP/08htVQPzd2su3Tdj5Xfh4EiAR5eey5WY/3b3Qo=
+  app: still-dawn-62826
+  on:
+    repo: thinkful-ei17/dan-scott-shopping-integration
